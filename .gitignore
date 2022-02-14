@@ -1,0 +1,11 @@
+.venv
+*.json.gz
+.DS_Store
+*dns*.json*
+*/.DS_Store
+__pycache__
+.python_packages
+*/.python-version
+gcp-svc-sonar.json
+*/local.settings.json
+.vscode/settings.json*
