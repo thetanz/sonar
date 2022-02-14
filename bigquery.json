@@ -1,0 +1,26 @@
+[
+  {
+    "description": "The time when this response was received in seconds since the epoch",
+    "mode": "REQUIRED",
+    "name": "timestamp",
+    "type": "STRING"
+  },
+  {
+    "description": "The record name",
+    "mode": "REQUIRED",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "description": "The record type",
+    "mode": "REQUIRED",
+    "name": "type",
+    "type": "STRING"
+  },
+  {
+    "description": "The response received for a record of the given name and type",
+    "mode": "REQUIRED",
+    "name": "value",
+    "type": "STRING"
+  }
+]

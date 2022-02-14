@@ -1,0 +1,29 @@
+{
+  "$id": "https://opendata.rapid7.com/sonar.rdns_v2/",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "timestamp": {
+      "$id": "/properties/timestamp",
+      "type": "string",
+      "description": "The time when this response was received in seconds since the epoch"
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "description": "The record name"
+    },
+    "type": {
+      "$id": "/properties/type",
+      "type": "string",
+      "description": "The record type"
+    },
+    "value": {
+      "$id": "/properties/value",
+      "type": "string",
+      "description": "The response received for a record of the given name and type"
+    }
+  }
+}
